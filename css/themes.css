@@ -33,6 +33,19 @@
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+  /* Shell */
+  --color-header-bg: rgba(11, 18, 32, 0.92);
+  --color-header-border: rgba(148, 163, 184, 0.18);
+  --color-nav-bg: rgba(15, 23, 42, 0.7);
+  --color-nav-border: rgba(148, 163, 184, 0.22);
+  --color-card-bg: rgba(11, 18, 32, 0.88);
+  --color-card-border: rgba(148, 163, 184, 0.16);
+  --color-tint: rgba(30, 41, 59, 0.68);
+  --color-tint-border: rgba(148, 163, 184, 0.18);
+  /* Landing (dark bg — keep light text) */
+  --color-landing-selector-bg: rgba(255, 255, 255, 0.05);
+  --color-landing-selector-border: rgba(255, 255, 255, 0.15);
+  --color-landing-selector-option-bg: #0f1a2e;
 }
 
 :root[data-theme="dark"] #landing-screen {
@@ -181,6 +194,23 @@
   --shadow-lg: 0 8px 30px rgba(255, 255, 255, 0.1);
   --border-radius: 4px;
   --border-radius-lg: 6px;
+  /* Shell */
+  --color-header-bg: rgba(0, 0, 0, 0.95);
+  --color-header-border: #666666;
+  --color-nav-bg: #1a1a1a;
+  --color-nav-border: #666666;
+  --color-card-bg: #1a1a1a;
+  --color-card-border: #666666;
+  --color-tint: rgba(255, 255, 255, 0.06);
+  --color-tint-border: #666666;
+  /* Landing (dark bg — high contrast light text) */
+  --color-landing-text: #ffffff;
+  --color-landing-text-strong: #ffffff;
+  --color-landing-text-muted: #cccccc;
+  --color-landing-selector-bg: #1a1a1a;
+  --color-landing-selector-border: #888888;
+  --color-landing-selector-text: #ffffff;
+  --color-landing-selector-option-bg: #1a1a1a;
 }
 
 :root[data-theme="high-contrast"] #landing-screen {
@@ -230,8 +260,8 @@
   --color-bg: #f5f0e1;
   --color-surface: #faf6eb;
   --color-text: #3e2f1c;
-  --color-text-muted: #7a6a55;
-  --color-text-light: #a89a82;
+  --color-text-muted: #6b5a42;
+  --color-text-light: #8a7a62;
   --color-border: #d4c5a9;
   --color-border-light: #e6dcc6;
   --color-judiciary: #2c5f7c;
@@ -261,19 +291,37 @@
   --shadow-sm: 0 1px 3px rgba(62, 47, 28, 0.1);
   --shadow-md: 0 4px 12px rgba(62, 47, 28, 0.12);
   --shadow-lg: 0 8px 30px rgba(62, 47, 28, 0.14);
+  /* Shell */
+  --color-header-bg: rgba(245, 240, 225, 0.92);
+  --color-header-border: rgba(92, 61, 30, 0.12);
+  --color-nav-bg: rgba(250, 246, 235, 0.7);
+  --color-nav-border: rgba(92, 61, 30, 0.15);
+  --color-card-bg: rgba(250, 246, 235, 0.9);
+  --color-card-border: rgba(92, 61, 30, 0.12);
+  --color-tint: rgba(92, 61, 30, 0.06);
+  --color-tint-border: rgba(92, 61, 30, 0.15);
+  /* Landing — light bg needs dark text */
+  --color-landing-text: #3e2f1c;
+  --color-landing-text-strong: #2a1f10;
+  --color-landing-text-muted: #6b5a42;
+  --color-landing-selector-bg: rgba(62, 47, 28, 0.08);
+  --color-landing-selector-border: rgba(62, 47, 28, 0.2);
+  --color-landing-selector-text: #3e2f1c;
+  --color-landing-selector-option-bg: #faf6eb;
 }
 
 :root[data-theme="parchment"] #landing-screen {
   background: linear-gradient(135deg, #f5f0e1 0%, #ebe3cc 50%, #dfd4b8 100%);
 }
 
-:root[data-theme="parchment"] .selector {
-  background: #faf6eb;
-  border-color: #d4c5a9;
+:root[data-theme="parchment"] .btn-primary {
+  background: #5c3d1e;
+  color: #faf6eb;
+  border-color: #5c3d1e;
 }
 
-:root[data-theme="parchment"] .selector option {
-  background: #faf6eb;
+:root[data-theme="parchment"] .btn-primary:hover {
+  background: #3e2f1c;
 }
 
 
@@ -316,6 +364,23 @@
   --shadow-sm: 0 0 4px rgba(51, 255, 51, 0.15);
   --shadow-md: 0 0 10px rgba(51, 255, 51, 0.2);
   --shadow-lg: 0 0 20px rgba(51, 255, 51, 0.25);
+  /* Shell */
+  --color-header-bg: rgba(26, 26, 26, 0.95);
+  --color-header-border: #44aa44;
+  --color-nav-bg: rgba(43, 43, 43, 0.7);
+  --color-nav-border: #44aa44;
+  --color-card-bg: rgba(43, 43, 43, 0.9);
+  --color-card-border: #44aa44;
+  --color-tint: rgba(51, 255, 51, 0.06);
+  --color-tint-border: #225522;
+  /* Landing (dark bg) */
+  --color-landing-text: #33ff33;
+  --color-landing-text-strong: #66ff66;
+  --color-landing-text-muted: #22aa22;
+  --color-landing-selector-bg: rgba(51, 255, 51, 0.08);
+  --color-landing-selector-border: #44aa44;
+  --color-landing-selector-text: #33ff33;
+  --color-landing-selector-option-bg: #2b2b2b;
 }
 
 :root[data-theme="retro"] #landing-screen {
@@ -361,22 +426,22 @@
   --color-bg: #fff8f0;
   --color-surface: #ffffff;
   --color-text: #2d2d3f;
-  --color-text-muted: #6b6b80;
-  --color-text-light: #9b9baf;
+  --color-text-muted: #5c5c72;
+  --color-text-light: #7a7a92;
   --color-border: #e0d6f0;
   --color-border-light: #f0ecf8;
   --color-judiciary: #6c5ce7;
   --color-judiciary-light: #a29bfe;
   --color-judiciary-bg: rgba(108, 92, 231, 0.1);
-  --color-executive: #fd79a8;
-  --color-executive-light: #fab1c8;
+  --color-executive: #e84393;
+  --color-executive-light: #fd79a8;
   --color-executive-bg: rgba(253, 121, 168, 0.1);
-  --color-legislature: #00b894;
-  --color-legislature-light: #55efc4;
+  --color-legislature: #00a381;
+  --color-legislature-light: #00b894;
   --color-legislature-bg: rgba(0, 184, 148, 0.1);
-  --color-correct: #00b894;
+  --color-correct: #00a381;
   --color-correct-bg: rgba(0, 184, 148, 0.1);
-  --color-partial: #fdcb6e;
+  --color-partial: #e5a800;
   --color-partial-bg: rgba(253, 203, 110, 0.15);
   --color-incorrect: #d63031;
   --color-incorrect-bg: rgba(214, 48, 49, 0.1);
@@ -392,6 +457,23 @@
   --shadow-sm: 0 1px 4px rgba(108, 92, 231, 0.08);
   --shadow-md: 0 4px 14px rgba(108, 92, 231, 0.12);
   --shadow-lg: 0 8px 30px rgba(108, 92, 231, 0.15);
+  /* Shell */
+  --color-header-bg: rgba(255, 248, 240, 0.92);
+  --color-header-border: rgba(108, 92, 231, 0.12);
+  --color-nav-bg: rgba(255, 255, 255, 0.7);
+  --color-nav-border: rgba(108, 92, 231, 0.15);
+  --color-card-bg: rgba(255, 255, 255, 0.9);
+  --color-card-border: rgba(108, 92, 231, 0.12);
+  --color-tint: rgba(108, 92, 231, 0.06);
+  --color-tint-border: rgba(108, 92, 231, 0.15);
+  /* Landing — light bg needs dark text */
+  --color-landing-text: #2d2d3f;
+  --color-landing-text-strong: #1a1a2e;
+  --color-landing-text-muted: #5c5c72;
+  --color-landing-selector-bg: rgba(108, 92, 231, 0.08);
+  --color-landing-selector-border: rgba(108, 92, 231, 0.2);
+  --color-landing-selector-text: #2d2d3f;
+  --color-landing-selector-option-bg: #ffffff;
 }
 
 :root[data-theme="colorful"] #landing-screen {
@@ -411,6 +493,12 @@
 :root[data-theme="colorful"] .selector {
   background: #ffffff;
   border-color: #e0d6f0;
+  color: #2d2d3f;
+}
+
+:root[data-theme="colorful"] .selector option {
+  background: #ffffff;
+  color: #2d2d3f;
 }
 
 
@@ -452,6 +540,23 @@
   --shadow-sm: 0 0 6px rgba(123, 47, 255, 0.15);
   --shadow-md: 0 0 16px rgba(123, 47, 255, 0.2);
   --shadow-lg: 0 0 30px rgba(123, 47, 255, 0.3);
+  /* Shell */
+  --color-header-bg: rgba(10, 10, 15, 0.95);
+  --color-header-border: rgba(123, 47, 255, 0.25);
+  --color-nav-bg: rgba(18, 18, 26, 0.7);
+  --color-nav-border: rgba(123, 47, 255, 0.2);
+  --color-card-bg: rgba(18, 18, 26, 0.9);
+  --color-card-border: rgba(123, 47, 255, 0.15);
+  --color-tint: rgba(123, 47, 255, 0.08);
+  --color-tint-border: rgba(123, 47, 255, 0.2);
+  /* Landing (dark bg) */
+  --color-landing-text: #e0e0ff;
+  --color-landing-text-strong: #ffffff;
+  --color-landing-text-muted: #8888aa;
+  --color-landing-selector-bg: rgba(123, 47, 255, 0.12);
+  --color-landing-selector-border: rgba(123, 47, 255, 0.3);
+  --color-landing-selector-text: #e0e0ff;
+  --color-landing-selector-option-bg: #12121a;
 }
 
 :root[data-theme="neon"] #landing-screen {
@@ -538,6 +643,23 @@
   --shadow-sm: 0 1px 4px rgba(10, 189, 227, 0.08);
   --shadow-md: 0 4px 16px rgba(10, 189, 227, 0.12);
   --shadow-lg: 0 8px 32px rgba(10, 189, 227, 0.16);
+  /* Shell */
+  --color-header-bg: rgba(12, 18, 34, 0.95);
+  --color-header-border: rgba(10, 189, 227, 0.15);
+  --color-nav-bg: rgba(19, 27, 46, 0.7);
+  --color-nav-border: rgba(10, 189, 227, 0.15);
+  --color-card-bg: rgba(19, 27, 46, 0.9);
+  --color-card-border: rgba(10, 189, 227, 0.1);
+  --color-tint: rgba(10, 189, 227, 0.06);
+  --color-tint-border: rgba(10, 189, 227, 0.15);
+  /* Landing (dark bg) */
+  --color-landing-text: #c8d6e5;
+  --color-landing-text-strong: #ffffff;
+  --color-landing-text-muted: #778ca3;
+  --color-landing-selector-bg: rgba(10, 189, 227, 0.1);
+  --color-landing-selector-border: rgba(10, 189, 227, 0.25);
+  --color-landing-selector-text: #c8d6e5;
+  --color-landing-selector-option-bg: #131b2e;
 }
 
 :root[data-theme="futuristic"] #landing-screen {

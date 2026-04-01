@@ -109,7 +109,7 @@ summary {
 .game-tagline {
   margin: 0 auto var(--space-xl);
   max-width: 58ch;
-  color: #dfe6e9;
+  color: var(--color-landing-text-muted);
   font-size: var(--font-size-md);
 }
 

@@ -22,10 +22,29 @@
   --color-bg: #f4f6f7;
   --color-surface: #ffffff;
   --color-text: #2c3e50;
-  --color-text-muted: #7f8c8d;
-  --color-text-light: #bdc3c7;
+  --color-text-muted: #6b7b8d;
+  --color-text-light: #8c99a4;
   --color-border: #d5dbdb;
   --color-border-light: #eaeded;
+
+  /* Header / Shell (semi-transparent so backdrop-filter works) */
+  --color-header-bg: rgba(244, 246, 247, 0.92);
+  --color-header-border: rgba(26, 82, 118, 0.12);
+  --color-nav-bg: rgba(255, 255, 255, 0.7);
+  --color-nav-border: rgba(26, 82, 118, 0.15);
+  --color-card-bg: rgba(255, 255, 255, 0.9);
+  --color-card-border: rgba(26, 82, 118, 0.12);
+  --color-tint: rgba(26, 82, 118, 0.06);
+  --color-tint-border: rgba(26, 82, 118, 0.15);
+
+  /* Landing screen (dark hero by default) */
+  --color-landing-text: #ecf0f1;
+  --color-landing-text-strong: #ffffff;
+  --color-landing-text-muted: #d5dbdb;
+  --color-landing-selector-bg: rgba(255, 255, 255, 0.1);
+  --color-landing-selector-border: rgba(255, 255, 255, 0.2);
+  --color-landing-selector-text: #ffffff;
+  --color-landing-selector-option-bg: #1a1a2e;
 
   /* Feedback Colors */
   --color-correct: #27ae60;

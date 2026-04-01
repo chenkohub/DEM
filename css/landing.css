@@ -6,7 +6,7 @@
   align-items: center;
   padding: var(--space-xl);
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  color: #ecf0f1;
+  color: var(--color-landing-text);
   text-align: center;
 }
 
@@ -20,7 +20,7 @@
   font-weight: 800;
   letter-spacing: 0.02em;
   margin-bottom: var(--space-xs);
-  color: #ffffff;
+  color: var(--color-landing-text-strong);
 }
 
 .game-subtitle-large {
@@ -40,11 +40,11 @@
 .landing-description p {
   margin-bottom: var(--space-sm);
   font-size: var(--font-size-md);
-  color: #d5dbdb;
+  color: var(--color-landing-text-muted);
 }
 
 .landing-description strong {
-  color: #ffffff;
+  color: var(--color-landing-text-strong);
 }
 
 .landing-description em {
@@ -69,9 +69,9 @@
 }
 
 .selector {
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--color-landing-selector-bg);
+  color: var(--color-landing-selector-text);
+  border: 1px solid var(--color-landing-selector-border);
   border-radius: var(--border-radius);
   padding: var(--space-sm) var(--space-md);
   font-size: var(--font-size-sm);
@@ -85,8 +85,8 @@
 }
 
 .selector option {
-  background: #1a1a2e;
-  color: #ffffff;
+  background: var(--color-landing-selector-option-bg);
+  color: var(--color-landing-selector-text);
 }
 
 /* Begin Button */
@@ -171,6 +171,16 @@ body.dark-mode {
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+
+  /* Shell / surface overrides for dark mode */
+  --color-header-bg: rgba(11, 18, 32, 0.92);
+  --color-header-border: rgba(148, 163, 184, 0.18);
+  --color-nav-bg: rgba(15, 23, 42, 0.7);
+  --color-nav-border: rgba(148, 163, 184, 0.22);
+  --color-card-bg: rgba(11, 18, 32, 0.88);
+  --color-card-border: rgba(148, 163, 184, 0.16);
+  --color-tint: rgba(30, 41, 59, 0.68);
+  --color-tint-border: rgba(148, 163, 184, 0.18);
 }
 
 body.dark-mode #landing-screen {

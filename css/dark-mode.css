@@ -29,6 +29,19 @@
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+    /* Shell */
+    --color-header-bg: rgba(11, 18, 32, 0.92);
+    --color-header-border: rgba(148, 163, 184, 0.18);
+    --color-nav-bg: rgba(15, 23, 42, 0.7);
+    --color-nav-border: rgba(148, 163, 184, 0.22);
+    --color-card-bg: rgba(11, 18, 32, 0.88);
+    --color-card-border: rgba(148, 163, 184, 0.16);
+    --color-tint: rgba(30, 41, 59, 0.68);
+    --color-tint-border: rgba(148, 163, 184, 0.18);
+    /* Landing selectors */
+    --color-landing-selector-bg: rgba(255, 255, 255, 0.05);
+    --color-landing-selector-border: rgba(255, 255, 255, 0.15);
+    --color-landing-selector-option-bg: #0f1a2e;
   }
 
   #landing-screen {
