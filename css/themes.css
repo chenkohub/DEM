@@ -1,0 +1,746 @@
+/* ==============================================================
+   THEMES — Theme definitions for the theme selector
+   Each theme overrides CSS custom properties on :root
+   ============================================================== */
+
+/* ----------------------------------------------------------
+   THEME: Dark
+   ---------------------------------------------------------- */
+:root[data-theme="dark"] {
+  --color-bg: #1a1a2e;
+  --color-surface: #16213e;
+  --color-text: #ecf0f1;
+  --color-text-muted: #95a5a6;
+  --color-text-light: #7f8c8d;
+  --color-border: #2c3e50;
+  --color-border-light: #1c2a3a;
+  --color-judiciary-bg: rgba(41, 128, 185, 0.15);
+  --color-executive-bg: rgba(192, 57, 43, 0.15);
+  --color-legislature-bg: rgba(39, 174, 96, 0.15);
+  --color-correct-bg: rgba(39, 174, 96, 0.15);
+  --color-partial-bg: rgba(243, 156, 18, 0.15);
+  --color-incorrect-bg: rgba(231, 76, 60, 0.15);
+  --color-accent: #0f3460;
+  --color-accent-hover: #1a5276;
+  --app-background-texture:
+    radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 18%),
+    radial-gradient(circle at 82% 0%, rgba(41, 128, 185, 0.16) 0%, rgba(41, 128, 185, 0) 28%),
+    radial-gradient(circle at 50% 100%, rgba(15, 52, 96, 0.22) 0%, rgba(15, 52, 96, 0) 38%);
+  --feedback-panel-texture:
+    linear-gradient(180deg, rgba(22, 33, 62, 0.97) 0%, rgba(17, 24, 39, 0.95) 100%),
+    radial-gradient(circle at top left, rgba(41, 128, 185, 0.16) 0%, rgba(41, 128, 185, 0) 34%);
+  --feedback-panel-border: rgba(255, 255, 255, 0.08);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="dark"] #landing-screen {
+  background: linear-gradient(135deg, #0a0a1a 0%, #0f1a2e 50%, #0a2540 100%);
+}
+
+:root[data-theme="dark"] .modal-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+:root[data-theme="dark"] .professor-note,
+:root[data-theme="dark"] .feedback-collapsible.professor-note {
+  background: rgba(41, 128, 185, 0.1);
+  border-color: rgba(41, 128, 185, 0.3);
+}
+
+:root[data-theme="dark"] .other-side,
+:root[data-theme="dark"] .feedback-collapsible.other-side {
+  background: rgba(243, 156, 18, 0.1);
+  border-color: rgba(243, 156, 18, 0.3);
+}
+
+:root[data-theme="dark"] .analytical-lens-badge {
+  background: rgba(108, 52, 131, 0.15);
+  border-color: rgba(108, 52, 131, 0.3);
+}
+
+:root[data-theme="dark"] .selector {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="dark"] .selector option {
+  background: #0f1a2e;
+}
+
+:root[data-theme="dark"] .results-table thead {
+  background: #0f3460;
+}
+
+:root[data-theme="dark"] .results-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+:root[data-theme="dark"] .choice-review-row.review-correct {
+  background: rgba(39, 174, 96, 0.1);
+  border-left-color: var(--color-correct);
+}
+
+:root[data-theme="dark"] .choice-review-row.review-partial {
+  background: rgba(243, 156, 18, 0.1);
+  border-left-color: var(--color-partial);
+}
+
+:root[data-theme="dark"] .choice-review-row.review-incorrect {
+  background: rgba(231, 76, 60, 0.1);
+  border-left-color: var(--color-incorrect);
+}
+
+:root[data-theme="dark"] .grade-ring {
+  box-shadow: var(--shadow-lg), 0 0 40px rgba(41, 128, 185, 0.15);
+}
+
+:root[data-theme="dark"] .grade-ring-inner {
+  background: var(--color-surface);
+}
+
+:root[data-theme="dark"] .precedent-tracker {
+  background: var(--color-surface);
+  border-left-color: var(--color-border);
+}
+
+:root[data-theme="dark"] .precedent-item {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+:root[data-theme="dark"] .precedent-item.precedent-affirmed {
+  background: rgba(39, 174, 96, 0.1);
+}
+
+:root[data-theme="dark"] .precedent-item.precedent-denied {
+  background: rgba(243, 156, 18, 0.1);
+}
+
+:root[data-theme="dark"] .exam-review-professor {
+  background: rgba(41, 128, 185, 0.1);
+  border-color: rgba(41, 128, 185, 0.3);
+}
+
+:root[data-theme="dark"] .exam-review-other-side {
+  background: rgba(243, 156, 18, 0.1);
+  border-color: rgba(243, 156, 18, 0.3);
+}
+
+:root[data-theme="dark"] .exam-review-explanation {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+:root[data-theme="dark"] .exam-review-summary {
+  background: var(--color-surface);
+}
+
+:root[data-theme="dark"] .exam-review-scenario {
+  border-color: var(--color-border);
+}
+
+:root[data-theme="dark"] .timer-display.critical {
+  background: var(--color-incorrect);
+  color: #ffffff;
+}
+
+
+/* ----------------------------------------------------------
+   THEME: High Contrast
+   ---------------------------------------------------------- */
+:root[data-theme="high-contrast"] {
+  --color-bg: #000000;
+  --color-surface: #1a1a1a;
+  --color-text: #ffffff;
+  --color-text-muted: #cccccc;
+  --color-text-light: #999999;
+  --color-border: #666666;
+  --color-border-light: #444444;
+  --color-judiciary: #3498db;
+  --color-judiciary-light: #5dade2;
+  --color-judiciary-bg: rgba(52, 152, 219, 0.25);
+  --color-executive: #e74c3c;
+  --color-executive-light: #ec7063;
+  --color-executive-bg: rgba(231, 76, 60, 0.25);
+  --color-legislature: #2ecc71;
+  --color-legislature-light: #58d68d;
+  --color-legislature-bg: rgba(46, 204, 113, 0.25);
+  --color-correct: #2ecc71;
+  --color-correct-bg: rgba(46, 204, 113, 0.2);
+  --color-partial: #f1c40f;
+  --color-partial-bg: rgba(241, 196, 15, 0.2);
+  --color-incorrect: #e74c3c;
+  --color-incorrect-bg: rgba(231, 76, 60, 0.2);
+  --color-accent: #ffffff;
+  --color-accent-hover: #cccccc;
+  --app-background-texture: none;
+  --feedback-panel-texture: none;
+  --feedback-panel-border: #666666;
+  --shadow-sm: 0 1px 3px rgba(255, 255, 255, 0.05);
+  --shadow-md: 0 4px 12px rgba(255, 255, 255, 0.08);
+  --shadow-lg: 0 8px 30px rgba(255, 255, 255, 0.1);
+  --border-radius: 4px;
+  --border-radius-lg: 6px;
+}
+
+:root[data-theme="high-contrast"] #landing-screen {
+  background: #000000;
+}
+
+:root[data-theme="high-contrast"] .btn {
+  border-width: 2px;
+}
+
+:root[data-theme="high-contrast"] .btn-primary {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+:root[data-theme="high-contrast"] .btn-primary:hover {
+  background: #cccccc;
+  border-color: #cccccc;
+}
+
+:root[data-theme="high-contrast"] .btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+:root[data-theme="high-contrast"] .selector {
+  background: #1a1a1a;
+  border-color: #888888;
+  color: #ffffff;
+}
+
+:root[data-theme="high-contrast"] .selector option {
+  background: #1a1a1a;
+}
+
+:root[data-theme="high-contrast"] .modal-overlay {
+  background: rgba(0, 0, 0, 0.95);
+}
+
+
+/* ----------------------------------------------------------
+   THEME: Parchment / Sepia
+   ---------------------------------------------------------- */
+:root[data-theme="parchment"] {
+  --color-bg: #f5f0e1;
+  --color-surface: #faf6eb;
+  --color-text: #3e2f1c;
+  --color-text-muted: #7a6a55;
+  --color-text-light: #a89a82;
+  --color-border: #d4c5a9;
+  --color-border-light: #e6dcc6;
+  --color-judiciary: #2c5f7c;
+  --color-judiciary-light: #3c7fa6;
+  --color-judiciary-bg: rgba(44, 95, 124, 0.1);
+  --color-executive: #8b3a2f;
+  --color-executive-light: #b04a3c;
+  --color-executive-bg: rgba(139, 58, 47, 0.1);
+  --color-legislature: #3d6b35;
+  --color-legislature-light: #508a45;
+  --color-legislature-bg: rgba(61, 107, 53, 0.1);
+  --color-correct: #508a45;
+  --color-correct-bg: rgba(80, 138, 69, 0.12);
+  --color-partial: #c08b2c;
+  --color-partial-bg: rgba(192, 139, 44, 0.12);
+  --color-incorrect: #b04a3c;
+  --color-incorrect-bg: rgba(176, 74, 60, 0.12);
+  --color-accent: #5c3d1e;
+  --color-accent-hover: #3e2f1c;
+  --app-background-texture:
+    radial-gradient(circle at 20% 20%, rgba(139, 115, 75, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(139, 115, 75, 0.04) 0%, transparent 40%);
+  --feedback-panel-texture:
+    linear-gradient(180deg, rgba(250, 246, 235, 0.98) 0%, rgba(245, 240, 225, 0.96) 100%);
+  --feedback-panel-border: rgba(62, 47, 28, 0.15);
+  --font-family: "Georgia", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  --shadow-sm: 0 1px 3px rgba(62, 47, 28, 0.1);
+  --shadow-md: 0 4px 12px rgba(62, 47, 28, 0.12);
+  --shadow-lg: 0 8px 30px rgba(62, 47, 28, 0.14);
+}
+
+:root[data-theme="parchment"] #landing-screen {
+  background: linear-gradient(135deg, #f5f0e1 0%, #ebe3cc 50%, #dfd4b8 100%);
+}
+
+:root[data-theme="parchment"] .selector {
+  background: #faf6eb;
+  border-color: #d4c5a9;
+}
+
+:root[data-theme="parchment"] .selector option {
+  background: #faf6eb;
+}
+
+
+/* ----------------------------------------------------------
+   THEME: Retro
+   ---------------------------------------------------------- */
+:root[data-theme="retro"] {
+  --color-bg: #2b2b2b;
+  --color-surface: #333333;
+  --color-text: #33ff33;
+  --color-text-muted: #22aa22;
+  --color-text-light: #117711;
+  --color-border: #44aa44;
+  --color-border-light: #225522;
+  --color-judiciary: #33ccff;
+  --color-judiciary-light: #66ddff;
+  --color-judiciary-bg: rgba(51, 204, 255, 0.12);
+  --color-executive: #ff6633;
+  --color-executive-light: #ff8855;
+  --color-executive-bg: rgba(255, 102, 51, 0.12);
+  --color-legislature: #33ff33;
+  --color-legislature-light: #66ff66;
+  --color-legislature-bg: rgba(51, 255, 51, 0.12);
+  --color-correct: #33ff33;
+  --color-correct-bg: rgba(51, 255, 51, 0.15);
+  --color-partial: #ffff33;
+  --color-partial-bg: rgba(255, 255, 51, 0.12);
+  --color-incorrect: #ff3333;
+  --color-incorrect-bg: rgba(255, 51, 51, 0.12);
+  --color-accent: #33ff33;
+  --color-accent-hover: #22cc22;
+  --app-background-texture: none;
+  --feedback-panel-texture:
+    linear-gradient(180deg, rgba(51, 51, 51, 0.98) 0%, rgba(43, 43, 43, 0.96) 100%);
+  --feedback-panel-border: #44aa44;
+  --font-family: "Courier New", "Lucida Console", Monaco, monospace;
+  --font-mono: "Courier New", "Lucida Console", Monaco, monospace;
+  --border-radius: 0px;
+  --border-radius-lg: 0px;
+  --shadow-sm: 0 0 4px rgba(51, 255, 51, 0.15);
+  --shadow-md: 0 0 10px rgba(51, 255, 51, 0.2);
+  --shadow-lg: 0 0 20px rgba(51, 255, 51, 0.25);
+}
+
+:root[data-theme="retro"] #landing-screen {
+  background: #1a1a1a;
+}
+
+:root[data-theme="retro"] .btn-primary {
+  background: #33ff33;
+  color: #1a1a1a;
+  border-color: #33ff33;
+}
+
+:root[data-theme="retro"] .btn-primary:hover {
+  background: #22cc22;
+  box-shadow: 0 0 12px rgba(51, 255, 51, 0.4);
+}
+
+:root[data-theme="retro"] .btn-secondary {
+  background: transparent;
+  color: #33ff33;
+  border-color: #33ff33;
+}
+
+:root[data-theme="retro"] .selector {
+  background: #2b2b2b;
+  border-color: #44aa44;
+  color: #33ff33;
+}
+
+:root[data-theme="retro"] .selector option {
+  background: #2b2b2b;
+}
+
+:root[data-theme="retro"] .modal-overlay {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+
+/* ----------------------------------------------------------
+   THEME: Colorful
+   ---------------------------------------------------------- */
+:root[data-theme="colorful"] {
+  --color-bg: #fff8f0;
+  --color-surface: #ffffff;
+  --color-text: #2d2d3f;
+  --color-text-muted: #6b6b80;
+  --color-text-light: #9b9baf;
+  --color-border: #e0d6f0;
+  --color-border-light: #f0ecf8;
+  --color-judiciary: #6c5ce7;
+  --color-judiciary-light: #a29bfe;
+  --color-judiciary-bg: rgba(108, 92, 231, 0.1);
+  --color-executive: #fd79a8;
+  --color-executive-light: #fab1c8;
+  --color-executive-bg: rgba(253, 121, 168, 0.1);
+  --color-legislature: #00b894;
+  --color-legislature-light: #55efc4;
+  --color-legislature-bg: rgba(0, 184, 148, 0.1);
+  --color-correct: #00b894;
+  --color-correct-bg: rgba(0, 184, 148, 0.1);
+  --color-partial: #fdcb6e;
+  --color-partial-bg: rgba(253, 203, 110, 0.15);
+  --color-incorrect: #d63031;
+  --color-incorrect-bg: rgba(214, 48, 49, 0.1);
+  --color-accent: #6c5ce7;
+  --color-accent-hover: #5541c9;
+  --app-background-texture:
+    radial-gradient(circle at 10% 20%, rgba(108, 92, 231, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(253, 121, 168, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(0, 184, 148, 0.04) 0%, transparent 50%);
+  --feedback-panel-texture:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 248, 240, 0.96) 100%);
+  --feedback-panel-border: rgba(108, 92, 231, 0.15);
+  --shadow-sm: 0 1px 4px rgba(108, 92, 231, 0.08);
+  --shadow-md: 0 4px 14px rgba(108, 92, 231, 0.12);
+  --shadow-lg: 0 8px 30px rgba(108, 92, 231, 0.15);
+}
+
+:root[data-theme="colorful"] #landing-screen {
+  background: linear-gradient(135deg, #fff8f0 0%, #f0ecf8 50%, #e8f8f0 100%);
+}
+
+:root[data-theme="colorful"] .btn-primary {
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+:root[data-theme="colorful"] .btn-primary:hover {
+  background: linear-gradient(135deg, #5541c9, #8b83f0);
+}
+
+:root[data-theme="colorful"] .selector {
+  background: #ffffff;
+  border-color: #e0d6f0;
+}
+
+
+/* ----------------------------------------------------------
+   THEME: Neon
+   ---------------------------------------------------------- */
+:root[data-theme="neon"] {
+  --color-bg: #0a0a0f;
+  --color-surface: #12121a;
+  --color-text: #e0e0ff;
+  --color-text-muted: #8888aa;
+  --color-text-light: #555577;
+  --color-border: #2a2a3e;
+  --color-border-light: #1a1a2e;
+  --color-judiciary: #00d4ff;
+  --color-judiciary-light: #33ddff;
+  --color-judiciary-bg: rgba(0, 212, 255, 0.1);
+  --color-executive: #ff0055;
+  --color-executive-light: #ff3377;
+  --color-executive-bg: rgba(255, 0, 85, 0.1);
+  --color-legislature: #00ff88;
+  --color-legislature-light: #33ffaa;
+  --color-legislature-bg: rgba(0, 255, 136, 0.1);
+  --color-correct: #00ff88;
+  --color-correct-bg: rgba(0, 255, 136, 0.12);
+  --color-partial: #ffcc00;
+  --color-partial-bg: rgba(255, 204, 0, 0.1);
+  --color-incorrect: #ff0055;
+  --color-incorrect-bg: rgba(255, 0, 85, 0.1);
+  --color-accent: #7b2fff;
+  --color-accent-hover: #9955ff;
+  --app-background-texture:
+    radial-gradient(circle at 20% 30%, rgba(123, 47, 255, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(0, 212, 255, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(255, 0, 85, 0.04) 0%, transparent 50%);
+  --feedback-panel-texture:
+    linear-gradient(180deg, rgba(18, 18, 26, 0.98) 0%, rgba(10, 10, 15, 0.96) 100%);
+  --feedback-panel-border: rgba(123, 47, 255, 0.3);
+  --shadow-sm: 0 0 6px rgba(123, 47, 255, 0.15);
+  --shadow-md: 0 0 16px rgba(123, 47, 255, 0.2);
+  --shadow-lg: 0 0 30px rgba(123, 47, 255, 0.3);
+}
+
+:root[data-theme="neon"] #landing-screen {
+  background: linear-gradient(135deg, #0a0a0f 0%, #0f0a1a 50%, #0a0f1a 100%);
+}
+
+:root[data-theme="neon"] .btn-primary {
+  background: linear-gradient(135deg, #7b2fff, #00d4ff);
+  color: #ffffff;
+  border-color: transparent;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+:root[data-theme="neon"] .btn-primary:hover {
+  box-shadow: 0 0 20px rgba(123, 47, 255, 0.5), 0 0 40px rgba(0, 212, 255, 0.3);
+}
+
+:root[data-theme="neon"] .btn-secondary {
+  background: transparent;
+  color: #00d4ff;
+  border-color: #00d4ff;
+}
+
+:root[data-theme="neon"] .btn-secondary:hover {
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.4);
+}
+
+:root[data-theme="neon"] .selector {
+  background: #12121a;
+  border-color: #2a2a3e;
+  color: #e0e0ff;
+}
+
+:root[data-theme="neon"] .selector option {
+  background: #12121a;
+}
+
+:root[data-theme="neon"] .modal-overlay {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+:root[data-theme="neon"] .surface-card {
+  border: 1px solid rgba(123, 47, 255, 0.15);
+}
+
+
+/* ----------------------------------------------------------
+   THEME: Futuristic
+   ---------------------------------------------------------- */
+:root[data-theme="futuristic"] {
+  --color-bg: #0c1222;
+  --color-surface: #131b2e;
+  --color-text: #c8d6e5;
+  --color-text-muted: #778ca3;
+  --color-text-light: #576574;
+  --color-border: #243b55;
+  --color-border-light: #1a2e44;
+  --color-judiciary: #0abde3;
+  --color-judiciary-light: #48dbfb;
+  --color-judiciary-bg: rgba(10, 189, 227, 0.12);
+  --color-executive: #ee5a24;
+  --color-executive-light: #f19066;
+  --color-executive-bg: rgba(238, 90, 36, 0.12);
+  --color-legislature: #10ac84;
+  --color-legislature-light: #1dd1a1;
+  --color-legislature-bg: rgba(16, 172, 132, 0.12);
+  --color-correct: #1dd1a1;
+  --color-correct-bg: rgba(29, 209, 161, 0.12);
+  --color-partial: #feca57;
+  --color-partial-bg: rgba(254, 202, 87, 0.12);
+  --color-incorrect: #ff6b6b;
+  --color-incorrect-bg: rgba(255, 107, 107, 0.12);
+  --color-accent: #0abde3;
+  --color-accent-hover: #48dbfb;
+  --app-background-texture:
+    radial-gradient(circle at 15% 85%, rgba(10, 189, 227, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 85% 15%, rgba(16, 172, 132, 0.06) 0%, transparent 40%);
+  --feedback-panel-texture:
+    linear-gradient(180deg, rgba(19, 27, 46, 0.98) 0%, rgba(12, 18, 34, 0.96) 100%);
+  --feedback-panel-border: rgba(10, 189, 227, 0.2);
+  --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --border-radius: 6px;
+  --border-radius-lg: 10px;
+  --shadow-sm: 0 1px 4px rgba(10, 189, 227, 0.08);
+  --shadow-md: 0 4px 16px rgba(10, 189, 227, 0.12);
+  --shadow-lg: 0 8px 32px rgba(10, 189, 227, 0.16);
+}
+
+:root[data-theme="futuristic"] #landing-screen {
+  background: linear-gradient(135deg, #0c1222 0%, #0f1b33 50%, #0c2233 100%);
+}
+
+:root[data-theme="futuristic"] .btn-primary {
+  background: linear-gradient(135deg, #0abde3, #10ac84);
+  color: #ffffff;
+  border-color: transparent;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+}
+
+:root[data-theme="futuristic"] .btn-primary:hover {
+  box-shadow: 0 0 16px rgba(10, 189, 227, 0.4);
+}
+
+:root[data-theme="futuristic"] .btn-secondary {
+  background: rgba(10, 189, 227, 0.08);
+  color: #48dbfb;
+  border-color: rgba(10, 189, 227, 0.3);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+}
+
+:root[data-theme="futuristic"] .selector {
+  background: #131b2e;
+  border-color: #243b55;
+  color: #c8d6e5;
+}
+
+:root[data-theme="futuristic"] .selector option {
+  background: #131b2e;
+}
+
+:root[data-theme="futuristic"] .modal-overlay {
+  background: rgba(12, 18, 34, 0.9);
+}
+
+:root[data-theme="futuristic"] .surface-card {
+  border: 1px solid rgba(10, 189, 227, 0.1);
+}
+
+
+/* ----------------------------------------------------------
+   THEME SELECTOR UI STYLES
+   ---------------------------------------------------------- */
+
+/* Header theme dropdown */
+.theme-dropdown-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.theme-dropdown-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: 44px;
+  padding: var(--space-xs) var(--space-sm);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.theme-dropdown-btn:hover {
+  background: rgba(128, 128, 128, 0.1);
+  border-color: var(--color-border);
+}
+
+.theme-dropdown-btn .theme-swatch {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.theme-dropdown-btn .theme-chevron {
+  font-size: 0.65em;
+  opacity: 0.6;
+  transition: transform var(--transition-fast);
+}
+
+.theme-dropdown-btn[aria-expanded="true"] .theme-chevron {
+  transform: rotate(180deg);
+}
+
+.theme-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 1000;
+  min-width: 180px;
+  padding: var(--space-xs) 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+.theme-dropdown-menu.is-open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.theme-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--transition-fast);
+}
+
+.theme-dropdown-item:hover,
+.theme-dropdown-item:focus-visible {
+  background: rgba(128, 128, 128, 0.12);
+}
+
+.theme-dropdown-item.is-active {
+  font-weight: 700;
+}
+
+.theme-dropdown-item .theme-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(128, 128, 128, 0.3);
+  flex-shrink: 0;
+}
+
+.theme-dropdown-item .theme-check {
+  margin-left: auto;
+  font-size: 0.8em;
+  opacity: 0;
+}
+
+.theme-dropdown-item.is-active .theme-check {
+  opacity: 1;
+}
+
+
+/* Settings panel theme grid */
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+.theme-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm);
+  border: 2px solid var(--color-border-light);
+  border-radius: var(--border-radius);
+  background: var(--color-surface);
+  cursor: pointer;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.theme-card:hover {
+  border-color: var(--color-border);
+}
+
+.theme-card.is-active {
+  border-color: var(--color-judiciary-light);
+  box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.25);
+}
+
+.theme-card-preview {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.theme-card-label {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-text);
+}

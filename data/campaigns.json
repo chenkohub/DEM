@@ -1,0 +1,2093 @@
+{
+  "version": 2,
+  "regions": [
+    {
+      "id": "judicial-power",
+      "label": "Judicial Power",
+      "color": "#475569",
+      "subRegions": [
+        {
+          "id": "standing-justiciability",
+          "label": "Standing & Justiciability",
+          "color": "rgba(71,85,105,0.10)",
+          "nodeIds": [
+            "environmental-standing",
+            "abortion-clinic-mootness",
+            "gerrymandering-challenge",
+            "the-partisan-gerrymander-challenge"
+          ]
+        },
+        {
+          "id": "judicial-review",
+          "label": "Judicial Review & Enforcement",
+          "color": "rgba(71,85,105,0.18)",
+          "nodeIds": [
+            "second-amendment-interpretation-methods",
+            "president-refuses-court-order",
+            "agency-defiance-judicial-review"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "executive-power",
+      "label": "Executive Power",
+      "color": "#b45309",
+      "subRegions": [
+        {
+          "id": "executive-authority",
+          "label": "Executive Authority",
+          "color": "rgba(180,83,9,0.10)",
+          "nodeIds": [
+            "youngstown-steel-seizure",
+            "the-frozen-accounts",
+            "the-frozen-accounts-statutory-twist",
+            "the-tariff-gambit",
+            "youngstown-full-analysis",
+            "president-seizes-semiconductor-plants"
+          ]
+        },
+        {
+          "id": "privilege-immunity",
+          "label": "Privilege & Immunity",
+          "color": "rgba(180,83,9,0.18)",
+          "nodeIds": [
+            "the-subpoenaed-tapes",
+            "executive-privilege-congressional-subpoena",
+            "the-state-of-the-union-incident",
+            "the-rally-gone-wrong",
+            "presidential-immunity-framework",
+            "presidential-campaign-rally-assault"
+          ]
+        },
+        {
+          "id": "removal-power",
+          "label": "Removal Power",
+          "color": "rgba(180,83,9,0.08)",
+          "nodeIds": [
+            "removal-independent-agency-head",
+            "independent-ai-safety-director",
+            "removal-multi-member-commission",
+            "double-insulated-inspector-general",
+            "seila-law-deep-dive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "separation-of-powers",
+      "label": "Separation of Powers",
+      "color": "#0f766e",
+      "subRegions": [
+        {
+          "id": "legislative-veto",
+          "label": "Legislative Veto & Bicameralism",
+          "color": "rgba(15,118,110,0.10)",
+          "nodeIds": [
+            "ins-v-chadha-legislative-veto",
+            "the-nullification-resolution",
+            "the-sixtyday-window",
+            "the-approval-requirement",
+            "ai-oversight-legislative-veto"
+          ]
+        },
+        {
+          "id": "nondelegation",
+          "label": "Nondelegation",
+          "color": "rgba(15,118,110,0.18)",
+          "nodeIds": [
+            "nondelegation-intelligible-principle",
+            "the-public-interest-mandate",
+            "the-registration-directive",
+            "pandemic-emergency-delegation"
+          ]
+        },
+        {
+          "id": "major-questions",
+          "label": "Major Questions & Structure",
+          "color": "rgba(15,118,110,0.08)",
+          "nodeIds": [
+            "epa-carbon-major-questions",
+            "the-unsupervised-adjudicator",
+            "the-congressional-commission",
+            "tech-czar-appointments",
+            "congressional-inspector-general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "congressional-power",
+      "label": "Congressional Power",
+      "color": "#9f1239",
+      "subRegions": [
+        {
+          "id": "commerce-clause",
+          "label": "Commerce Clause",
+          "color": "rgba(159,18,57,0.10)",
+          "nodeIds": [
+            "the-school-zone-statute",
+            "the-home-garden-prohibition",
+            "the-purchase-mandate",
+            "federal-mental-health-act",
+            "domestic-violence-housing-act",
+            "intrastate-endangered-species",
+            "homegrown-psychedelics-regulation",
+            "national-broadband-mandate",
+            "nutrition-mandate-inactivity"
+          ]
+        },
+        {
+          "id": "spending-power",
+          "label": "Spending Power",
+          "color": "rgba(159,18,57,0.18)",
+          "nodeIds": [
+            "spending-clause-coercion",
+            "the-highway-incentive",
+            "the-medicaid-ultimatum",
+            "education-standards-funding",
+            "education-medicaid-spending-coercion"
+          ]
+        },
+        {
+          "id": "necessary-proper-taxing",
+          "label": "Necessary & Proper / Taxing",
+          "color": "rgba(159,18,57,0.08)",
+          "nodeIds": [
+            "mcculloch-modern-bank",
+            "carbon-emissions-charge",
+            "social-media-age-verification-fee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "federalism",
+      "label": "Federalism",
+      "color": "#166534",
+      "subRegions": [
+        {
+          "id": "anti-commandeering",
+          "label": "Anti-Commandeering",
+          "color": "rgba(22,101,52,0.10)",
+          "nodeIds": [
+            "the-waste-disposal-directive",
+            "the-background-check-order",
+            "federal-gun-registry-commandeering"
+          ]
+        },
+        {
+          "id": "dormant-commerce",
+          "label": "Dormant Commerce Clause",
+          "color": "rgba(22,101,52,0.18)",
+          "nodeIds": [
+            "state-wine-shipping-ban",
+            "dormant-commerce-clause-flow-control",
+            "state-truck-length-safety",
+            "dairy-subsidy-scheme",
+            "humane-poultry-standards-dcc"
+          ]
+        },
+        {
+          "id": "preemption-privileges",
+          "label": "Preemption & Privileges",
+          "color": "rgba(22,101,52,0.08)",
+          "nodeIds": [
+            "insurance-regulation-mccarran-ferguson",
+            "nonresident-fishing-license-fees",
+            "medical-school-residency-preference",
+            "state-drone-privacy-preemption",
+            "federal-preemption-cannabis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foreign-affairs",
+      "label": "Foreign Affairs",
+      "color": "#1e3a5f",
+      "subRegions": [
+        {
+          "id": "treaties-agreements",
+          "label": "Treaties & Executive Agreements",
+          "color": "rgba(30,58,95,0.10)",
+          "nodeIds": [
+            "the-hostage-crisis-executive-agreement",
+            "the-treaty-enforcement-memo",
+            "the-passport-dispute",
+            "passport-recognition-power",
+            "climate-executive-agreement",
+            "treaty-delegation-international-body"
+          ]
+        },
+        {
+          "id": "war-powers",
+          "label": "War Powers",
+          "color": "rgba(30,58,95,0.18)",
+          "nodeIds": [
+            "the-foreign-arms-embargo",
+            "the-unilateral-bombing-campaign",
+            "unilateral-military-strike"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equal-protection",
+      "label": "Equal Protection",
+      "color": "#c2410c",
+      "subRegions": [
+        {
+          "id": "strict-scrutiny",
+          "label": "Strict Scrutiny (Race)",
+          "color": "rgba(194,65,12,0.10)",
+          "nodeIds": [
+            "equal-protection-scrutiny-framework",
+            "school-admissions-test-disparate-impact",
+            "fire-department-diversity-program",
+            "resegregation-after-unitary-status",
+            "race-neutral-admissions-post-sffa",
+            "police-promotion-exam-disparate-impact",
+            "disparate-impact-intent-framework"
+          ]
+        },
+        {
+          "id": "intermediate-scrutiny",
+          "label": "Intermediate Scrutiny (Sex/Gender)",
+          "color": "rgba(194,65,12,0.18)",
+          "nodeIds": [
+            "pregnancy-leave-classification",
+            "male-parental-leave-discrimination",
+            "women-stem-scholarship",
+            "inheritance-rights-nonmarital-children",
+            "gender-identity-birth-certificate"
+          ]
+        },
+        {
+          "id": "rational-basis",
+          "label": "Rational Basis",
+          "color": "rgba(194,65,12,0.08)",
+          "nodeIds": [
+            "food-truck-licensing-ban",
+            "drug-conviction-business-license-ban",
+            "adoption-agency-orientation-ban",
+            "voter-id-fundamental-interest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "due-process",
+      "label": "Due Process",
+      "color": "#9d174d",
+      "subRegions": [
+        {
+          "id": "incorporation",
+          "label": "Incorporation",
+          "color": "rgba(157,23,77,0.10)",
+          "nodeIds": [
+            "grand-jury-incorporation"
+          ]
+        },
+        {
+          "id": "substantive-dp",
+          "label": "Substantive Due Process",
+          "color": "rgba(157,23,77,0.18)",
+          "nodeIds": [
+            "food-truck-proximity-ban",
+            "post-dobbs-six-week-ban",
+            "surrogacy-ban-substantive-due-process",
+            "marriage-counseling-mandate"
+          ]
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "environmental-standing",
+      "scenarioId": "environmental-standing",
+      "regionId": "judicial-power",
+      "x": 10,
+      "y": 10,
+      "requiresAll": [],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "abortion-clinic-mootness",
+      "scenarioId": "abortion-clinic-mootness",
+      "regionId": "judicial-power",
+      "x": 5,
+      "y": 36.7,
+      "requiresAll": [
+        "environmental-standing"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "second-amendment-interpretation-methods",
+      "scenarioId": "second-amendment-interpretation-methods",
+      "regionId": "judicial-power",
+      "x": 15,
+      "y": 36.7,
+      "requiresAll": [
+        "environmental-standing"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "president-refuses-court-order",
+      "scenarioId": "president-refuses-court-order",
+      "regionId": "judicial-power",
+      "x": 5,
+      "y": 63.3,
+      "requiresAll": [
+        "second-amendment-interpretation-methods"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "agency-defiance-judicial-review",
+      "scenarioId": "agency-defiance-judicial-review",
+      "regionId": "judicial-power",
+      "x": 5,
+      "y": 90,
+      "requiresAll": [
+        "president-refuses-court-order"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "gerrymandering-challenge",
+      "scenarioId": "gerrymandering-challenge",
+      "regionId": "judicial-power",
+      "x": 15,
+      "y": 63.3,
+      "requiresAll": [
+        "abortion-clinic-mootness"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-partisan-gerrymander-challenge",
+      "scenarioId": "the-partisan-gerrymander-challenge",
+      "regionId": "judicial-power",
+      "x": 15,
+      "y": 90,
+      "requiresAll": [
+        "gerrymandering-challenge"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 4,
+      "tags": [
+        "capstone",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "youngstown-steel-seizure",
+      "scenarioId": "youngstown-steel-seizure",
+      "regionId": "executive-power",
+      "x": 18,
+      "y": 10,
+      "requiresAll": [],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-frozen-accounts",
+      "scenarioId": "the-frozen-accounts",
+      "regionId": "executive-power",
+      "x": 18,
+      "y": 26,
+      "requiresAll": [
+        "youngstown-steel-seizure"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-frozen-accounts-statutory-twist",
+      "scenarioId": "the-frozen-accounts-statutory-twist",
+      "regionId": "executive-power",
+      "x": 18,
+      "y": 42,
+      "requiresAll": [
+        "the-frozen-accounts"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-tariff-gambit",
+      "scenarioId": "the-tariff-gambit",
+      "regionId": "executive-power",
+      "x": 18,
+      "y": 58,
+      "requiresAll": [
+        "the-frozen-accounts-statutory-twist"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "youngstown-full-analysis",
+      "scenarioId": "youngstown-full-analysis",
+      "regionId": "executive-power",
+      "x": 18,
+      "y": 74,
+      "requiresAll": [
+        "the-frozen-accounts-statutory-twist",
+        "the-tariff-gambit"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 4,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "president-seizes-semiconductor-plants",
+      "scenarioId": "president-seizes-semiconductor-plants",
+      "regionId": "executive-power",
+      "x": 20.5,
+      "y": 26,
+      "requiresAll": [
+        "youngstown-steel-seizure"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-subpoenaed-tapes",
+      "scenarioId": "the-subpoenaed-tapes",
+      "regionId": "executive-power",
+      "x": 23,
+      "y": 26,
+      "requiresAll": [
+        "youngstown-steel-seizure"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "executive-privilege-congressional-subpoena",
+      "scenarioId": "executive-privilege-congressional-subpoena",
+      "regionId": "executive-power",
+      "x": 20.5,
+      "y": 42,
+      "requiresAll": [
+        "the-subpoenaed-tapes"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-state-of-the-union-incident",
+      "scenarioId": "the-state-of-the-union-incident",
+      "regionId": "executive-power",
+      "x": 23,
+      "y": 42,
+      "requiresAll": [
+        "the-subpoenaed-tapes"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-rally-gone-wrong",
+      "scenarioId": "the-rally-gone-wrong",
+      "regionId": "executive-power",
+      "x": 28,
+      "y": 58,
+      "requiresAll": [
+        "the-state-of-the-union-incident"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "presidential-immunity-framework",
+      "scenarioId": "presidential-immunity-framework",
+      "regionId": "executive-power",
+      "x": 28,
+      "y": 74,
+      "requiresAll": [
+        "the-state-of-the-union-incident",
+        "the-rally-gone-wrong"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "presidential-campaign-rally-assault",
+      "scenarioId": "presidential-campaign-rally-assault",
+      "regionId": "executive-power",
+      "x": 23,
+      "y": 90,
+      "requiresAll": [
+        "presidential-immunity-framework"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "removal-independent-agency-head",
+      "scenarioId": "removal-independent-agency-head",
+      "regionId": "executive-power",
+      "x": 28,
+      "y": 10,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "independent-ai-safety-director",
+      "scenarioId": "independent-ai-safety-director",
+      "regionId": "executive-power",
+      "x": 25.5,
+      "y": 26,
+      "requiresAll": [
+        "removal-independent-agency-head"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "removal-multi-member-commission",
+      "scenarioId": "removal-multi-member-commission",
+      "regionId": "executive-power",
+      "x": 28,
+      "y": 26,
+      "requiresAll": [
+        "removal-independent-agency-head"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "double-insulated-inspector-general",
+      "scenarioId": "double-insulated-inspector-general",
+      "regionId": "executive-power",
+      "x": 25.5,
+      "y": 42,
+      "requiresAll": [
+        "removal-multi-member-commission"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "seila-law-deep-dive",
+      "scenarioId": "seila-law-deep-dive",
+      "regionId": "executive-power",
+      "x": 28,
+      "y": 42,
+      "requiresAll": [
+        "removal-multi-member-commission"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 6,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "ins-v-chadha-legislative-veto",
+      "scenarioId": "ins-v-chadha-legislative-veto",
+      "regionId": "separation-of-powers",
+      "x": 36,
+      "y": 10,
+      "requiresAll": [
+        "youngstown-steel-seizure"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-nullification-resolution",
+      "scenarioId": "the-nullification-resolution",
+      "regionId": "separation-of-powers",
+      "x": 31,
+      "y": 23.3,
+      "requiresAll": [
+        "ins-v-chadha-legislative-veto"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-sixtyday-window",
+      "scenarioId": "the-sixtyday-window",
+      "regionId": "separation-of-powers",
+      "x": 31,
+      "y": 36.7,
+      "requiresAll": [
+        "the-nullification-resolution"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-approval-requirement",
+      "scenarioId": "the-approval-requirement",
+      "regionId": "separation-of-powers",
+      "x": 31,
+      "y": 50,
+      "requiresAll": [
+        "the-sixtyday-window"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "ai-oversight-legislative-veto",
+      "scenarioId": "ai-oversight-legislative-veto",
+      "regionId": "separation-of-powers",
+      "x": 36,
+      "y": 23.3,
+      "requiresAll": [
+        "ins-v-chadha-legislative-veto"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "nondelegation-intelligible-principle",
+      "scenarioId": "nondelegation-intelligible-principle",
+      "regionId": "separation-of-powers",
+      "x": 41,
+      "y": 23.3,
+      "requiresAll": [
+        "ins-v-chadha-legislative-veto"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-public-interest-mandate",
+      "scenarioId": "the-public-interest-mandate",
+      "regionId": "separation-of-powers",
+      "x": 34.3,
+      "y": 36.7,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-registration-directive",
+      "scenarioId": "the-registration-directive",
+      "regionId": "separation-of-powers",
+      "x": 41,
+      "y": 50,
+      "requiresAll": [
+        "the-public-interest-mandate"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "pandemic-emergency-delegation",
+      "scenarioId": "pandemic-emergency-delegation",
+      "regionId": "separation-of-powers",
+      "x": 37.7,
+      "y": 36.7,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "epa-carbon-major-questions",
+      "scenarioId": "epa-carbon-major-questions",
+      "regionId": "separation-of-powers",
+      "x": 41,
+      "y": 36.7,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-unsupervised-adjudicator",
+      "scenarioId": "the-unsupervised-adjudicator",
+      "regionId": "separation-of-powers",
+      "x": 36,
+      "y": 63.3,
+      "requiresAll": [],
+      "requiresAny": [
+        "the-approval-requirement",
+        "the-registration-directive"
+      ],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-congressional-commission",
+      "scenarioId": "the-congressional-commission",
+      "regionId": "separation-of-powers",
+      "x": 31,
+      "y": 76.7,
+      "requiresAll": [
+        "the-unsupervised-adjudicator"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "tech-czar-appointments",
+      "scenarioId": "tech-czar-appointments",
+      "regionId": "separation-of-powers",
+      "x": 41,
+      "y": 76.7,
+      "requiresAll": [
+        "the-unsupervised-adjudicator"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "congressional-inspector-general",
+      "scenarioId": "congressional-inspector-general",
+      "regionId": "separation-of-powers",
+      "x": 36,
+      "y": 90,
+      "requiresAll": [
+        "the-congressional-commission"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 4,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "mcculloch-modern-bank",
+      "scenarioId": "mcculloch-modern-bank",
+      "regionId": "congressional-power",
+      "x": 44,
+      "y": 10,
+      "requiresAll": [],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "spending-clause-coercion",
+      "scenarioId": "spending-clause-coercion",
+      "regionId": "congressional-power",
+      "x": 56,
+      "y": 10,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-school-zone-statute",
+      "scenarioId": "the-school-zone-statute",
+      "regionId": "congressional-power",
+      "x": 44,
+      "y": 30,
+      "requiresAll": [
+        "spending-clause-coercion"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-home-garden-prohibition",
+      "scenarioId": "the-home-garden-prohibition",
+      "regionId": "congressional-power",
+      "x": 44,
+      "y": 50,
+      "requiresAll": [
+        "the-school-zone-statute"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-purchase-mandate",
+      "scenarioId": "the-purchase-mandate",
+      "regionId": "congressional-power",
+      "x": 44,
+      "y": 70,
+      "requiresAll": [
+        "the-home-garden-prohibition"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 4,
+      "tags": [
+        "capstone",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "federal-mental-health-act",
+      "scenarioId": "federal-mental-health-act",
+      "regionId": "congressional-power",
+      "x": 47,
+      "y": 50,
+      "requiresAll": [
+        "the-school-zone-statute"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "domestic-violence-housing-act",
+      "scenarioId": "domestic-violence-housing-act",
+      "regionId": "congressional-power",
+      "x": 50,
+      "y": 70,
+      "requiresAll": [
+        "federal-mental-health-act"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "intrastate-endangered-species",
+      "scenarioId": "intrastate-endangered-species",
+      "regionId": "congressional-power",
+      "x": 56,
+      "y": 70,
+      "requiresAll": [
+        "the-home-garden-prohibition"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "homegrown-psychedelics-regulation",
+      "scenarioId": "homegrown-psychedelics-regulation",
+      "regionId": "congressional-power",
+      "x": 44,
+      "y": 90,
+      "requiresAll": [
+        "intrastate-endangered-species"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "national-broadband-mandate",
+      "scenarioId": "national-broadband-mandate",
+      "regionId": "congressional-power",
+      "x": 50,
+      "y": 90,
+      "requiresAll": [
+        "the-purchase-mandate"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "nutrition-mandate-inactivity",
+      "scenarioId": "nutrition-mandate-inactivity",
+      "regionId": "congressional-power",
+      "x": 56,
+      "y": 90,
+      "requiresAll": [
+        "the-purchase-mandate"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-highway-incentive",
+      "scenarioId": "the-highway-incentive",
+      "regionId": "congressional-power",
+      "x": 48,
+      "y": 30,
+      "requiresAll": [
+        "spending-clause-coercion"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-medicaid-ultimatum",
+      "scenarioId": "the-medicaid-ultimatum",
+      "regionId": "congressional-power",
+      "x": 50,
+      "y": 50,
+      "requiresAll": [
+        "the-highway-incentive"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "education-standards-funding",
+      "scenarioId": "education-standards-funding",
+      "regionId": "congressional-power",
+      "x": 52,
+      "y": 30,
+      "requiresAll": [
+        "spending-clause-coercion"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "education-medicaid-spending-coercion",
+      "scenarioId": "education-medicaid-spending-coercion",
+      "regionId": "congressional-power",
+      "x": 53,
+      "y": 50,
+      "requiresAll": [
+        "education-standards-funding"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "carbon-emissions-charge",
+      "scenarioId": "carbon-emissions-charge",
+      "regionId": "congressional-power",
+      "x": 56,
+      "y": 30,
+      "requiresAll": [
+        "mcculloch-modern-bank"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "social-media-age-verification-fee",
+      "scenarioId": "social-media-age-verification-fee",
+      "regionId": "congressional-power",
+      "x": 56,
+      "y": 50,
+      "requiresAll": [
+        "carbon-emissions-charge"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-waste-disposal-directive",
+      "scenarioId": "the-waste-disposal-directive",
+      "regionId": "federalism",
+      "x": 64,
+      "y": 10,
+      "requiresAll": [],
+      "requiresAny": [
+        "the-medicaid-ultimatum",
+        "the-purchase-mandate"
+      ],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-background-check-order",
+      "scenarioId": "the-background-check-order",
+      "regionId": "federalism",
+      "x": 59,
+      "y": 36.7,
+      "requiresAll": [
+        "the-waste-disposal-directive"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "federal-gun-registry-commandeering",
+      "scenarioId": "federal-gun-registry-commandeering",
+      "regionId": "federalism",
+      "x": 59,
+      "y": 63.3,
+      "requiresAll": [
+        "the-background-check-order"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "state-wine-shipping-ban",
+      "scenarioId": "state-wine-shipping-ban",
+      "regionId": "federalism",
+      "x": 64,
+      "y": 36.7,
+      "requiresAll": [
+        "the-waste-disposal-directive"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "dormant-commerce-clause-flow-control",
+      "scenarioId": "dormant-commerce-clause-flow-control",
+      "regionId": "federalism",
+      "x": 62.3,
+      "y": 63.3,
+      "requiresAll": [
+        "state-wine-shipping-ban"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "state-truck-length-safety",
+      "scenarioId": "state-truck-length-safety",
+      "regionId": "federalism",
+      "x": 65.7,
+      "y": 63.3,
+      "requiresAll": [
+        "state-wine-shipping-ban"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "dairy-subsidy-scheme",
+      "scenarioId": "dairy-subsidy-scheme",
+      "regionId": "federalism",
+      "x": 59,
+      "y": 90,
+      "requiresAll": [
+        "dormant-commerce-clause-flow-control"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "humane-poultry-standards-dcc",
+      "scenarioId": "humane-poultry-standards-dcc",
+      "regionId": "federalism",
+      "x": 61.5,
+      "y": 90,
+      "requiresAll": [
+        "state-truck-length-safety"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "insurance-regulation-mccarran-ferguson",
+      "scenarioId": "insurance-regulation-mccarran-ferguson",
+      "regionId": "federalism",
+      "x": 64,
+      "y": 90,
+      "requiresAll": [
+        "dormant-commerce-clause-flow-control"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "nonresident-fishing-license-fees",
+      "scenarioId": "nonresident-fishing-license-fees",
+      "regionId": "federalism",
+      "x": 69,
+      "y": 63.3,
+      "requiresAll": [
+        "state-wine-shipping-ban"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "medical-school-residency-preference",
+      "scenarioId": "medical-school-residency-preference",
+      "regionId": "federalism",
+      "x": 66.5,
+      "y": 90,
+      "requiresAll": [
+        "nonresident-fishing-license-fees"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "state-drone-privacy-preemption",
+      "scenarioId": "state-drone-privacy-preemption",
+      "regionId": "federalism",
+      "x": 69,
+      "y": 36.7,
+      "requiresAll": [
+        "the-waste-disposal-directive"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "federal-preemption-cannabis",
+      "scenarioId": "federal-preemption-cannabis",
+      "regionId": "federalism",
+      "x": 69,
+      "y": 90,
+      "requiresAll": [],
+      "requiresAny": [
+        "the-background-check-order",
+        "dormant-commerce-clause-flow-control"
+      ],
+      "requiresMinStarsInRegion": 4,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "the-foreign-arms-embargo",
+      "scenarioId": "the-foreign-arms-embargo",
+      "regionId": "foreign-affairs",
+      "x": 76,
+      "y": 10,
+      "requiresAll": [
+        "the-waste-disposal-directive"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-hostage-crisis-executive-agreement",
+      "scenarioId": "the-hostage-crisis-executive-agreement",
+      "regionId": "foreign-affairs",
+      "x": 76,
+      "y": 30,
+      "requiresAll": [
+        "the-foreign-arms-embargo"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "the-treaty-enforcement-memo",
+      "scenarioId": "the-treaty-enforcement-memo",
+      "regionId": "foreign-affairs",
+      "x": 72,
+      "y": 50,
+      "requiresAll": [
+        "the-hostage-crisis-executive-agreement"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "the-passport-dispute",
+      "scenarioId": "the-passport-dispute",
+      "regionId": "foreign-affairs",
+      "x": 72,
+      "y": 70,
+      "requiresAll": [
+        "the-treaty-enforcement-memo"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "passport-recognition-power",
+      "scenarioId": "passport-recognition-power",
+      "regionId": "foreign-affairs",
+      "x": 76,
+      "y": 90,
+      "requiresAll": [
+        "the-passport-dispute"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "climate-executive-agreement",
+      "scenarioId": "climate-executive-agreement",
+      "regionId": "foreign-affairs",
+      "x": 76,
+      "y": 50,
+      "requiresAll": [
+        "the-hostage-crisis-executive-agreement"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "treaty-delegation-international-body",
+      "scenarioId": "treaty-delegation-international-body",
+      "regionId": "foreign-affairs",
+      "x": 76,
+      "y": 70,
+      "requiresAll": [
+        "the-treaty-enforcement-memo"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 4,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "the-unilateral-bombing-campaign",
+      "scenarioId": "the-unilateral-bombing-campaign",
+      "regionId": "foreign-affairs",
+      "x": 80,
+      "y": 50,
+      "requiresAll": [
+        "the-hostage-crisis-executive-agreement"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "unilateral-military-strike",
+      "scenarioId": "unilateral-military-strike",
+      "regionId": "foreign-affairs",
+      "x": 80,
+      "y": 70,
+      "requiresAll": [
+        "the-unilateral-bombing-campaign"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "equal-protection-scrutiny-framework",
+      "scenarioId": "equal-protection-scrutiny-framework",
+      "regionId": "equal-protection",
+      "x": 89,
+      "y": 10,
+      "requiresAll": [
+        "the-partisan-gerrymander-challenge"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "school-admissions-test-disparate-impact",
+      "scenarioId": "school-admissions-test-disparate-impact",
+      "regionId": "equal-protection",
+      "x": 83,
+      "y": 30,
+      "requiresAll": [
+        "equal-protection-scrutiny-framework"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "fire-department-diversity-program",
+      "scenarioId": "fire-department-diversity-program",
+      "regionId": "equal-protection",
+      "x": 83,
+      "y": 50,
+      "requiresAll": [
+        "school-admissions-test-disparate-impact"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "resegregation-after-unitary-status",
+      "scenarioId": "resegregation-after-unitary-status",
+      "regionId": "equal-protection",
+      "x": 83,
+      "y": 70,
+      "requiresAll": [
+        "fire-department-diversity-program"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "race-neutral-admissions-post-sffa",
+      "scenarioId": "race-neutral-admissions-post-sffa",
+      "regionId": "equal-protection",
+      "x": 86,
+      "y": 70,
+      "requiresAll": [
+        "fire-department-diversity-program"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "pregnancy-leave-classification",
+      "scenarioId": "pregnancy-leave-classification",
+      "regionId": "equal-protection",
+      "x": 87,
+      "y": 30,
+      "requiresAll": [
+        "equal-protection-scrutiny-framework"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "male-parental-leave-discrimination",
+      "scenarioId": "male-parental-leave-discrimination",
+      "regionId": "equal-protection",
+      "x": 86,
+      "y": 50,
+      "requiresAll": [
+        "pregnancy-leave-classification"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "women-stem-scholarship",
+      "scenarioId": "women-stem-scholarship",
+      "regionId": "equal-protection",
+      "x": 89,
+      "y": 70,
+      "requiresAll": [
+        "male-parental-leave-discrimination"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "inheritance-rights-nonmarital-children",
+      "scenarioId": "inheritance-rights-nonmarital-children",
+      "regionId": "equal-protection",
+      "x": 89,
+      "y": 50,
+      "requiresAll": [
+        "pregnancy-leave-classification"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "gender-identity-birth-certificate",
+      "scenarioId": "gender-identity-birth-certificate",
+      "regionId": "equal-protection",
+      "x": 89,
+      "y": 90,
+      "requiresAll": [
+        "women-stem-scholarship"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "food-truck-licensing-ban",
+      "scenarioId": "food-truck-licensing-ban",
+      "regionId": "equal-protection",
+      "x": 91,
+      "y": 30,
+      "requiresAll": [
+        "equal-protection-scrutiny-framework"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "drug-conviction-business-license-ban",
+      "scenarioId": "drug-conviction-business-license-ban",
+      "regionId": "equal-protection",
+      "x": 92,
+      "y": 50,
+      "requiresAll": [
+        "food-truck-licensing-ban"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "adoption-agency-orientation-ban",
+      "scenarioId": "adoption-agency-orientation-ban",
+      "regionId": "equal-protection",
+      "x": 92,
+      "y": 70,
+      "requiresAll": [
+        "drug-conviction-business-license-ban"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "police-promotion-exam-disparate-impact",
+      "scenarioId": "police-promotion-exam-disparate-impact",
+      "regionId": "equal-protection",
+      "x": 95,
+      "y": 50,
+      "requiresAll": [
+        "school-admissions-test-disparate-impact"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "disparate-impact-intent-framework",
+      "scenarioId": "disparate-impact-intent-framework",
+      "regionId": "equal-protection",
+      "x": 95,
+      "y": 70,
+      "requiresAll": [
+        "police-promotion-exam-disparate-impact"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "voter-id-fundamental-interest",
+      "scenarioId": "voter-id-fundamental-interest",
+      "regionId": "equal-protection",
+      "x": 95,
+      "y": 30,
+      "requiresAll": [
+        "equal-protection-scrutiny-framework"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "grand-jury-incorporation",
+      "scenarioId": "grand-jury-incorporation",
+      "regionId": "due-process",
+      "x": 102,
+      "y": 10,
+      "requiresAll": [
+        "equal-protection-scrutiny-framework"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "entry",
+        "mainPath"
+      ]
+    },
+    {
+      "id": "food-truck-proximity-ban",
+      "scenarioId": "food-truck-proximity-ban",
+      "regionId": "due-process",
+      "x": 98,
+      "y": 50,
+      "requiresAll": [
+        "grand-jury-incorporation"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "post-dobbs-six-week-ban",
+      "scenarioId": "post-dobbs-six-week-ban",
+      "regionId": "due-process",
+      "x": 106,
+      "y": 50,
+      "requiresAll": [
+        "grand-jury-incorporation"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "surrogacy-ban-substantive-due-process",
+      "scenarioId": "surrogacy-ban-substantive-due-process",
+      "regionId": "due-process",
+      "x": 98,
+      "y": 90,
+      "requiresAll": [
+        "post-dobbs-six-week-ban"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "marriage-counseling-mandate",
+      "scenarioId": "marriage-counseling-mandate",
+      "regionId": "due-process",
+      "x": 106,
+      "y": 90,
+      "requiresAll": [
+        "post-dobbs-six-week-ban"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "abortion-clinic-mootness",
+      "to": "gerrymandering-challenge"
+    },
+    {
+      "from": "carbon-emissions-charge",
+      "to": "social-media-age-verification-fee"
+    },
+    {
+      "from": "dormant-commerce-clause-flow-control",
+      "to": "dairy-subsidy-scheme"
+    },
+    {
+      "from": "dormant-commerce-clause-flow-control",
+      "to": "federal-preemption-cannabis"
+    },
+    {
+      "from": "dormant-commerce-clause-flow-control",
+      "to": "insurance-regulation-mccarran-ferguson"
+    },
+    {
+      "from": "drug-conviction-business-license-ban",
+      "to": "adoption-agency-orientation-ban"
+    },
+    {
+      "from": "education-standards-funding",
+      "to": "education-medicaid-spending-coercion"
+    },
+    {
+      "from": "environmental-standing",
+      "to": "abortion-clinic-mootness"
+    },
+    {
+      "from": "environmental-standing",
+      "to": "second-amendment-interpretation-methods"
+    },
+    {
+      "from": "equal-protection-scrutiny-framework",
+      "to": "food-truck-licensing-ban"
+    },
+    {
+      "from": "equal-protection-scrutiny-framework",
+      "to": "grand-jury-incorporation"
+    },
+    {
+      "from": "equal-protection-scrutiny-framework",
+      "to": "pregnancy-leave-classification"
+    },
+    {
+      "from": "equal-protection-scrutiny-framework",
+      "to": "school-admissions-test-disparate-impact"
+    },
+    {
+      "from": "equal-protection-scrutiny-framework",
+      "to": "voter-id-fundamental-interest"
+    },
+    {
+      "from": "federal-mental-health-act",
+      "to": "domestic-violence-housing-act"
+    },
+    {
+      "from": "fire-department-diversity-program",
+      "to": "race-neutral-admissions-post-sffa"
+    },
+    {
+      "from": "fire-department-diversity-program",
+      "to": "resegregation-after-unitary-status"
+    },
+    {
+      "from": "food-truck-licensing-ban",
+      "to": "drug-conviction-business-license-ban"
+    },
+    {
+      "from": "gerrymandering-challenge",
+      "to": "the-partisan-gerrymander-challenge"
+    },
+    {
+      "from": "grand-jury-incorporation",
+      "to": "food-truck-proximity-ban"
+    },
+    {
+      "from": "grand-jury-incorporation",
+      "to": "post-dobbs-six-week-ban"
+    },
+    {
+      "from": "ins-v-chadha-legislative-veto",
+      "to": "ai-oversight-legislative-veto"
+    },
+    {
+      "from": "ins-v-chadha-legislative-veto",
+      "to": "nondelegation-intelligible-principle"
+    },
+    {
+      "from": "ins-v-chadha-legislative-veto",
+      "to": "the-nullification-resolution"
+    },
+    {
+      "from": "intrastate-endangered-species",
+      "to": "homegrown-psychedelics-regulation"
+    },
+    {
+      "from": "male-parental-leave-discrimination",
+      "to": "women-stem-scholarship"
+    },
+    {
+      "from": "mcculloch-modern-bank",
+      "to": "carbon-emissions-charge"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "epa-carbon-major-questions"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "pandemic-emergency-delegation"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "removal-independent-agency-head"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "spending-clause-coercion"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "the-public-interest-mandate"
+    },
+    {
+      "from": "nonresident-fishing-license-fees",
+      "to": "medical-school-residency-preference"
+    },
+    {
+      "from": "police-promotion-exam-disparate-impact",
+      "to": "disparate-impact-intent-framework"
+    },
+    {
+      "from": "post-dobbs-six-week-ban",
+      "to": "marriage-counseling-mandate"
+    },
+    {
+      "from": "post-dobbs-six-week-ban",
+      "to": "surrogacy-ban-substantive-due-process"
+    },
+    {
+      "from": "pregnancy-leave-classification",
+      "to": "inheritance-rights-nonmarital-children"
+    },
+    {
+      "from": "pregnancy-leave-classification",
+      "to": "male-parental-leave-discrimination"
+    },
+    {
+      "from": "president-refuses-court-order",
+      "to": "agency-defiance-judicial-review"
+    },
+    {
+      "from": "presidential-immunity-framework",
+      "to": "presidential-campaign-rally-assault"
+    },
+    {
+      "from": "removal-independent-agency-head",
+      "to": "independent-ai-safety-director"
+    },
+    {
+      "from": "removal-independent-agency-head",
+      "to": "removal-multi-member-commission"
+    },
+    {
+      "from": "removal-multi-member-commission",
+      "to": "double-insulated-inspector-general"
+    },
+    {
+      "from": "removal-multi-member-commission",
+      "to": "seila-law-deep-dive"
+    },
+    {
+      "from": "school-admissions-test-disparate-impact",
+      "to": "fire-department-diversity-program"
+    },
+    {
+      "from": "school-admissions-test-disparate-impact",
+      "to": "police-promotion-exam-disparate-impact"
+    },
+    {
+      "from": "second-amendment-interpretation-methods",
+      "to": "president-refuses-court-order"
+    },
+    {
+      "from": "spending-clause-coercion",
+      "to": "education-standards-funding"
+    },
+    {
+      "from": "spending-clause-coercion",
+      "to": "the-highway-incentive"
+    },
+    {
+      "from": "spending-clause-coercion",
+      "to": "the-school-zone-statute"
+    },
+    {
+      "from": "state-truck-length-safety",
+      "to": "humane-poultry-standards-dcc"
+    },
+    {
+      "from": "state-wine-shipping-ban",
+      "to": "dormant-commerce-clause-flow-control"
+    },
+    {
+      "from": "state-wine-shipping-ban",
+      "to": "nonresident-fishing-license-fees"
+    },
+    {
+      "from": "state-wine-shipping-ban",
+      "to": "state-truck-length-safety"
+    },
+    {
+      "from": "the-approval-requirement",
+      "to": "the-unsupervised-adjudicator"
+    },
+    {
+      "from": "the-background-check-order",
+      "to": "federal-gun-registry-commandeering"
+    },
+    {
+      "from": "the-background-check-order",
+      "to": "federal-preemption-cannabis"
+    },
+    {
+      "from": "the-congressional-commission",
+      "to": "congressional-inspector-general"
+    },
+    {
+      "from": "the-foreign-arms-embargo",
+      "to": "the-hostage-crisis-executive-agreement"
+    },
+    {
+      "from": "the-frozen-accounts",
+      "to": "the-frozen-accounts-statutory-twist"
+    },
+    {
+      "from": "the-frozen-accounts-statutory-twist",
+      "to": "the-tariff-gambit"
+    },
+    {
+      "from": "the-frozen-accounts-statutory-twist",
+      "to": "youngstown-full-analysis"
+    },
+    {
+      "from": "the-highway-incentive",
+      "to": "the-medicaid-ultimatum"
+    },
+    {
+      "from": "the-home-garden-prohibition",
+      "to": "intrastate-endangered-species"
+    },
+    {
+      "from": "the-home-garden-prohibition",
+      "to": "the-purchase-mandate"
+    },
+    {
+      "from": "the-hostage-crisis-executive-agreement",
+      "to": "climate-executive-agreement"
+    },
+    {
+      "from": "the-hostage-crisis-executive-agreement",
+      "to": "the-treaty-enforcement-memo"
+    },
+    {
+      "from": "the-hostage-crisis-executive-agreement",
+      "to": "the-unilateral-bombing-campaign"
+    },
+    {
+      "from": "the-medicaid-ultimatum",
+      "to": "the-waste-disposal-directive"
+    },
+    {
+      "from": "the-nullification-resolution",
+      "to": "the-sixtyday-window"
+    },
+    {
+      "from": "the-partisan-gerrymander-challenge",
+      "to": "equal-protection-scrutiny-framework"
+    },
+    {
+      "from": "the-passport-dispute",
+      "to": "passport-recognition-power"
+    },
+    {
+      "from": "the-public-interest-mandate",
+      "to": "the-registration-directive"
+    },
+    {
+      "from": "the-purchase-mandate",
+      "to": "national-broadband-mandate"
+    },
+    {
+      "from": "the-purchase-mandate",
+      "to": "nutrition-mandate-inactivity"
+    },
+    {
+      "from": "the-purchase-mandate",
+      "to": "the-waste-disposal-directive"
+    },
+    {
+      "from": "the-rally-gone-wrong",
+      "to": "presidential-immunity-framework"
+    },
+    {
+      "from": "the-registration-directive",
+      "to": "the-unsupervised-adjudicator"
+    },
+    {
+      "from": "the-school-zone-statute",
+      "to": "federal-mental-health-act"
+    },
+    {
+      "from": "the-school-zone-statute",
+      "to": "the-home-garden-prohibition"
+    },
+    {
+      "from": "the-sixtyday-window",
+      "to": "the-approval-requirement"
+    },
+    {
+      "from": "the-state-of-the-union-incident",
+      "to": "presidential-immunity-framework"
+    },
+    {
+      "from": "the-state-of-the-union-incident",
+      "to": "the-rally-gone-wrong"
+    },
+    {
+      "from": "the-subpoenaed-tapes",
+      "to": "executive-privilege-congressional-subpoena"
+    },
+    {
+      "from": "the-subpoenaed-tapes",
+      "to": "the-state-of-the-union-incident"
+    },
+    {
+      "from": "the-tariff-gambit",
+      "to": "youngstown-full-analysis"
+    },
+    {
+      "from": "the-treaty-enforcement-memo",
+      "to": "the-passport-dispute"
+    },
+    {
+      "from": "the-treaty-enforcement-memo",
+      "to": "treaty-delegation-international-body"
+    },
+    {
+      "from": "the-unilateral-bombing-campaign",
+      "to": "unilateral-military-strike"
+    },
+    {
+      "from": "the-unsupervised-adjudicator",
+      "to": "tech-czar-appointments"
+    },
+    {
+      "from": "the-unsupervised-adjudicator",
+      "to": "the-congressional-commission"
+    },
+    {
+      "from": "the-waste-disposal-directive",
+      "to": "state-drone-privacy-preemption"
+    },
+    {
+      "from": "the-waste-disposal-directive",
+      "to": "state-wine-shipping-ban"
+    },
+    {
+      "from": "the-waste-disposal-directive",
+      "to": "the-background-check-order"
+    },
+    {
+      "from": "the-waste-disposal-directive",
+      "to": "the-foreign-arms-embargo"
+    },
+    {
+      "from": "women-stem-scholarship",
+      "to": "gender-identity-birth-certificate"
+    },
+    {
+      "from": "youngstown-steel-seizure",
+      "to": "ins-v-chadha-legislative-veto"
+    },
+    {
+      "from": "youngstown-steel-seizure",
+      "to": "president-seizes-semiconductor-plants"
+    },
+    {
+      "from": "youngstown-steel-seizure",
+      "to": "the-frozen-accounts"
+    },
+    {
+      "from": "youngstown-steel-seizure",
+      "to": "the-subpoenaed-tapes"
+    }
+  ],
+  "mainPath": [
+    "youngstown-steel-seizure",
+    "the-subpoenaed-tapes",
+    "presidential-immunity-framework",
+    "ins-v-chadha-legislative-veto",
+    "nondelegation-intelligible-principle",
+    "epa-carbon-major-questions",
+    "removal-independent-agency-head",
+    "mcculloch-modern-bank",
+    "spending-clause-coercion",
+    "the-school-zone-statute",
+    "the-home-garden-prohibition",
+    "the-purchase-mandate",
+    "the-waste-disposal-directive",
+    "state-wine-shipping-ban",
+    "dormant-commerce-clause-flow-control",
+    "the-foreign-arms-embargo",
+    "the-hostage-crisis-executive-agreement",
+    "the-unilateral-bombing-campaign",
+    "environmental-standing",
+    "the-partisan-gerrymander-challenge",
+    "president-refuses-court-order",
+    "equal-protection-scrutiny-framework",
+    "school-admissions-test-disparate-impact",
+    "male-parental-leave-discrimination",
+    "food-truck-licensing-ban",
+    "disparate-impact-intent-framework",
+    "grand-jury-incorporation",
+    "post-dobbs-six-week-ban"
+  ]
+}
