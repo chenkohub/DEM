@@ -1,0 +1,215 @@
+/* ==============================================================
+   APP SHELL + CAREER MODE SURFACES
+   ============================================================== */
+
+body {
+  background: linear-gradient(180deg, rgba(26, 82, 118, 0.08), transparent 260px), var(--color-bg, #f4f6f7);
+}
+
+.app-shell-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.1rem;
+  background: var(--color-header-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-header-border);
+}
+
+.app-branding {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.app-branding-icon {
+  font-size: 1.4rem;
+}
+
+.app-branding strong,
+.app-branding span {
+  display: block;
+}
+
+.app-branding span:last-child {
+  font-size: 0.85rem;
+  opacity: 0.72;
+}
+
+.app-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.app-nav-link {
+  border: 1px solid var(--color-nav-border);
+  background: var(--color-nav-bg);
+  color: var(--color-text);
+  border-radius: 999px;
+  padding: 0.55rem 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.app-nav-link.is-active {
+  background: #1a5276;
+  color: #fff;
+  border-color: #1a5276;
+}
+
+.app-main {
+  padding: 1.2rem;
+}
+
+.surface-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-card-border);
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+  color: var(--color-text);
+}
+
+.card-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pill-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: var(--color-judiciary-bg);
+  color: var(--color-judiciary);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.muted-copy {
+  opacity: 0.76;
+}
+
+.hero-stat,
+.detail-stat-grid > div,
+.reward-pill,
+.summary-card {
+  background: var(--color-tint);
+  border-radius: 16px;
+  padding: 0.85rem 1rem;
+}
+
+.hero-stat span,
+.detail-stat-grid span,
+.reward-pill span,
+.summary-card-label {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.72;
+  margin-bottom: 0.3rem;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(240px, 0.8fr);
+  gap: 1.25rem;
+  padding: 1.35rem;
+  margin-bottom: 1rem;
+}
+
+.home-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.home-grid,
+.home-secondary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.home-secondary-grid {
+  grid-template-columns: 1.15fr 1fr 1.1fr;
+}
+
+.home-continue-card,
+.quick-start-card,
+.nav-tiles-card,
+.summary-card-home,
+.mentor-panel,
+.library-shell,
+.codex-shell,
+.map-canvas-card,
+.map-sidebar,
+.map-detail-panel,
+.dashboard-panel,
+.dashboard-shell,
+.end-results-card {
+  padding: 1.1rem;
+}
+
+.nav-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.nav-tile {
+  border: 1px solid var(--color-tint-border);
+  border-radius: 16px;
+  background: var(--color-tint);
+  padding: 1rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.mentor-panel {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.95rem;
+  align-items: center;
+}
+
+.mentor-panel.compact {
+  grid-template-columns: 80px 1fr;
+}
+
+.mentor-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.mentor-label {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+
+.mentor-name {
+  margin: 0.2rem 0 0.25rem;
+}
+
+.mentor-line,
+.mentor-inline-copy {
+  margin: 0;
+  line-height: 1.55;
+}
+

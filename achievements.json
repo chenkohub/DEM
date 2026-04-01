@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "achievements": [
+    {
+      "id": "first-scenario-completed",
+      "title": "First Brief Filed",
+      "description": "Complete your first official scenario.",
+      "icon": "\ud83d\udcc4",
+      "rule": {
+        "type": "completedScenarios",
+        "count": 1
+      }
+    },
+    {
+      "id": "first-campaign-node-cleared",
+      "title": "Campaign Underway",
+      "description": "Clear your first campaign node.",
+      "icon": "\ud83e\udded",
+      "rule": {
+        "type": "campaignClears",
+        "count": 1
+      }
+    },
+    {
+      "id": "three-star-performance",
+      "title": "Three-Star Analysis",
+      "description": "Earn 3 stars on any official scenario.",
+      "icon": "\u2b50",
+      "rule": {
+        "type": "anyScenarioStars",
+        "count": 3
+      }
+    },
+    {
+      "id": "five-scenarios-completed",
+      "title": "Five Opinions Issued",
+      "description": "Complete 5 official scenarios.",
+      "icon": "\ud83d\uddc2\ufe0f",
+      "rule": {
+        "type": "completedScenarios",
+        "count": 5
+      }
+    },
+    {
+      "id": "ten-scenarios-completed",
+      "title": "Doctrinal Momentum",
+      "description": "Complete 10 official scenarios.",
+      "icon": "\ud83d\udcda",
+      "rule": {
+        "type": "completedScenarios",
+        "count": 10
+      }
+    },
+    {
+      "id": "executive-power-mastery",
+      "title": "Executive Power Mastery",
+      "description": "Average at least 85% across at least 3 Executive Power scenarios.",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "executive-power",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "federalism-mastery",
+      "title": "Federalism Mastery",
+      "description": "Average at least 85% across at least 3 Federalism scenarios.",
+      "icon": "\ud83d\uddfa\ufe0f",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "federalism",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "three-day-streak",
+      "title": "Three-Day Streak",
+      "description": "Play on 3 consecutive days.",
+      "icon": "\ud83d\udd25",
+      "rule": {
+        "type": "streakDays",
+        "count": 3
+      }
+    },
+    {
+      "id": "seven-day-streak",
+      "title": "Seven-Day Streak",
+      "description": "Play on 7 consecutive days.",
+      "icon": "\ud83c\udf1f",
+      "rule": {
+        "type": "streakDays",
+        "count": 7
+      }
+    },
+    {
+      "id": "complete-main-path",
+      "title": "Main Path Complete",
+      "description": "Finish every main-path campaign node.",
+      "icon": "\ud83d\udee4\ufe0f",
+      "rule": {
+        "type": "completeMainPath"
+      }
+    },
+    {
+      "id": "complete-every-scenario",
+      "title": "Constitutional Atlas",
+      "description": "Complete every official scenario in the library.",
+      "icon": "\ud83c\udfc6",
+      "rule": {
+        "type": "completeAllScenarios"
+      }
+    },
+    {
+      "id": "youngstown-scholar",
+      "title": "Youngstown Scholar",
+      "description": "Achieve 80%+ accuracy across 3+ Youngstown Framework scenarios.",
+      "icon": "\u2696\ufe0f",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "youngstown",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "commerce-clause-expert",
+      "title": "Commerce Clause Expert",
+      "description": "Achieve 80%+ accuracy across 3+ Commerce Clause scenarios.",
+      "icon": "\ud83d\udcb0",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "commerce-clause",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "non-delegation-master",
+      "title": "Non-Delegation Master",
+      "description": "Achieve 80%+ accuracy across 3+ Non-Delegation Doctrine scenarios.",
+      "icon": "\ud83d\udcdc",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "non-delegation",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "removal-power-authority",
+      "title": "Removal Power Authority",
+      "description": "Achieve 80%+ accuracy across 3+ Removal Power scenarios.",
+      "icon": "\ud83d\udd28",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "removal-power",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "spending-clause-specialist",
+      "title": "Spending Clause Specialist",
+      "description": "Achieve 80%+ accuracy across 3+ Spending Clause scenarios.",
+      "icon": "\ud83d\udcb5",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "spending-clause",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "anti-commandeering-defender",
+      "title": "Anti-Commandeering Defender",
+      "description": "Achieve 80%+ accuracy across 3+ Tenth Amendment / Anti-Commandeering scenarios.",
+      "icon": "\ud83c\udff0",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "tenth-amendment",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "constitutional-generalist",
+      "title": "Constitutional Generalist",
+      "description": "Complete 20+ scenarios with 75%+ overall accuracy across all doctrines.",
+      "icon": "\ud83c\udf93",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "",
+        "minAttempts": 20,
+        "minAccuracy": 75
+      }
+    },
+    {
+      "id": "judicial-power-mastery",
+      "title": "Judicial Power Mastery",
+      "description": "Average at least 85% across at least 3 Judicial Power scenarios.",
+      "icon": "\u2696\ufe0f",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "judicial-power",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "congressional-power-mastery",
+      "title": "Congressional Power Mastery",
+      "description": "Average at least 85% across at least 3 Congressional Power scenarios.",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "congressional-power",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "separation-of-powers-mastery",
+      "title": "Separation of Powers Mastery",
+      "description": "Average at least 85% across at least 3 Separation of Powers scenarios.",
+      "icon": "\ud83d\udd00",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "separation-of-powers",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "foreign-affairs-mastery",
+      "title": "Foreign Affairs Mastery",
+      "description": "Average at least 85% across at least 3 Foreign Affairs scenarios.",
+      "icon": "\ud83c\udf10",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "foreign-affairs",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "equal-protection-mastery",
+      "title": "Equal Protection Mastery",
+      "description": "Average at least 85% across at least 3 Equal Protection scenarios.",
+      "icon": "\ud83d\udee1\ufe0f",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "equal-protection",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "due-process-mastery",
+      "title": "Due Process Mastery",
+      "description": "Average at least 85% across at least 3 Due Process scenarios.",
+      "icon": "\ud83d\udcdc",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "due-process",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "equal-protection-scholar",
+      "title": "Equal Protection Scholar",
+      "description": "Achieve 80%+ accuracy across 3+ Equal Protection scenarios.",
+      "icon": "\u2696\ufe0f",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "equal-protection",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "due-process-authority",
+      "title": "Due Process Authority",
+      "description": "Achieve 80%+ accuracy across 3+ Due Process scenarios.",
+      "icon": "\ud83d\udcdc",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "due-process",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "dormant-commerce-clause-expert",
+      "title": "Dormant Commerce Clause Expert",
+      "description": "Achieve 80%+ accuracy across 3+ Dormant Commerce Clause scenarios.",
+      "icon": "\ud83d\udea7",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "dormant-commerce",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    },
+    {
+      "id": "war-powers-strategist",
+      "title": "War Powers Strategist",
+      "description": "Achieve 80%+ accuracy across 3+ War Powers / Foreign Affairs scenarios.",
+      "icon": "\ud83c\udf96\ufe0f",
+      "rule": {
+        "type": "doctrineAccuracy",
+        "doctrineSlugPrefix": "war-powers",
+        "minAttempts": 3,
+        "minAccuracy": 80
+      }
+    }
+  ]
+}

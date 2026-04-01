@@ -1,0 +1,19 @@
+/* styles.css — Import hub for all CSS modules */
+@import './css/variables.css';
+@import './css/reset.css';
+@import './css/layout.css';
+@import './css/landing.css';
+@import './css/game.css';
+@import './css/feedback.css';
+@import './css/results.css';
+@import './css/components.css';
+@import './css/responsive.css';
+@import './css/dark-mode.css';
+@import './css/themes.css';
+@import './css/app-shell.css';
+@import './css/surfaces.css';
+@import './css/dashboard.css';
+@import './css/map.css';
+@import './css/library.css';
+@import './css/codex.css';
+@import './css/extras.css';
